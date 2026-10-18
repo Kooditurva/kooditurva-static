@@ -3,10 +3,10 @@
 Public static files for Kooditurva Oy, served by GitHub Pages at
 https://kooditurva.github.io/kooditurva-static/.
 
-| Path | What | Source |
-|---|---|---|
-| `lifespan-predictor/video/` | Marketing video page, linked from the AWS Marketplace listing's product video URL | `video.mp4` and `poster.png` (from `cover_1080.png`) are copied from `dist/` in `Kooditurva/lifespan-predictor-video` |
-| `assets/kooditurva.png` | Logo | `assets/brand/` in `Kooditurva/lifespan-predictor-video` |
+| Path | What |
+|---|---|
+| `lifespan-predictor/video/` | Forwards to https://kooditurva.fi/docs/lifespan-predictor/ (the WordPress page that now hosts the video), keeping UTM tags |
+| `assets/kooditurva.png` | Logo, from `assets/brand/` in `Kooditurva/lifespan-predictor-video` |
 
-Files here are copies. To update the video, re-render it in `lifespan-predictor-video`
-and copy `dist/video.mp4` over `lifespan-predictor/video/video.mp4`.
+The video itself is in the WordPress media library; its source is `dist/video.mp4` in
+`Kooditurva/lifespan-predictor-video`.
